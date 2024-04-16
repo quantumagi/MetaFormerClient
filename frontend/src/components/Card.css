@@ -1,0 +1,132 @@
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.card-table th {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: #eff3f6;
+    color: #333;
+    padding: 7px;
+    text-align: left;
+}
+
+.card-table td {
+    padding: 3px;
+    font-size: 0.9em; /* Slightly smaller font size */
+    font-weight: 400;
+    background-color: rgb(251, 250, 250);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+.card-title {
+    flex-basis: 30%;
+}
+
+.card-actions {
+    flex-basis: 70%;
+    text-align: right;
+}
+
+.card th, .card td {
+    min-width: 50px; /* or whatever minimum width you find appropriate */
+    overflow: hidden; /* Prevent content from spilling out */
+    text-overflow: ellipsis; /* Add an ellipsis to text that is too long to fit */
+    white-space: nowrap; /* Keep the content on a single line */
+}
+
+/* Padding for select or input fields set to 3 px */
+.card select, .card input {
+    padding: 1px;
+    margin: 1px;
+    width: auto; /* Full width to fill the cell */
+    border-radius: 4px; /* Rounded corners for the input fields */
+    border: 1px solid #ccc; /* Standard border for inputs */
+    box-sizing: border-box; /* Border-box model for better padding handling */
+}
+
+.exception {
+    color: red;
+}
+
+  /* Apply to all th elements within thead within table within .panel */
+.card thead {
+    position: sticky;
+    top: 0px;
+    background: #eff2f3d6;
+    text-align: left;
+    height: 28px;
+}
+
+.card button:hover {
+    background-color: #909494;
+}
+
+.card button {
+    border-radius: 4px;
+    border: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card table thead {
+    font-size: 0.8em; /* Adjust the size as needed */
+    font-weight: 300; /* Choose the weight that fits your design, e.g., 400 for regular, 700 for bold */
+}
+
+.card table {
+    width: 100%;
+    table-layout: auto;
+    overflow-y: auto;
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+}
+
+.table-container {
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 275px;
+    padding: 0px;
+    margin: 0px;
+    background: #dbdcde;
+    width: 800px;
+}
+
+.table-container tr td {
+    padding: 3px;
+    font-size: 0.9em; /* Slightly smaller font size */
+    font-weight: 400;
+    background-color: rgb(251, 250, 250);
+}
+
+.table-grid-container {
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+    background: #dbdcde;
+    width: 800px;
+}
+
+
+.table-grid-container table tr:nth-of-type(even) td {
+    background: rgb(232, 236, 244);
+}
+
+.table-grid-container table tr td:hover {
+    background: rgb(244, 242, 121);
+}
+
+.tree-container table {
+    width: 300px;
+}
