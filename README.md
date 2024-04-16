@@ -26,6 +26,7 @@ To get started with MetaFormerClient, follow these steps:
    
 2. **Install dependencies**
    ```bash
+   cd frontend
    npm install
    
 3. **Start the development server**

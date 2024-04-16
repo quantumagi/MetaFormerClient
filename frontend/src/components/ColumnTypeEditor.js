@@ -141,6 +141,7 @@ const ColumnTypeEditor = () => {
     }, [updateDataWindow, editedTypes, tolerance, saveChanges]);
     
     const dataTypeToFriendlyName = {
+        'bool': 'Boolean',
         'int8': 'Small Integer',
         'int16': 'Short Integer',
         'int32': 'Integer',

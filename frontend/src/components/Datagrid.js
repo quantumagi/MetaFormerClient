@@ -37,6 +37,8 @@ const Datagrid = () => {
             }
 
             switch (type) {
+                case 'bool':
+                    return value ? 'True' : 'False';
                 case 'int8': case 'int16': case 'int32': case 'int64':
                     return value;
                 case 'float32':
